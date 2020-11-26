@@ -1,0 +1,23 @@
+.header{ /* .header por causa do nome da pasta */
+    display: flex;
+    align-items: center;   /* alinha os items no centro da tela */
+}
+
+.header a{  /* estilos em todos os links do nosso header*/
+    display: flex;
+    align-items: center;
+    text-decoration: none;  /* não ter nenhum tipo de decoração em links (exemplo aquele sublinhado quando deixamos o mouse em cima do link) */
+    color: #fff;
+}
+
+.header .logo{
+    max-height: 45px;
+}
+
+.header .title-group{
+    padding-left: 30px;  /* espaçamento */
+}
+
+.header .title-group i{
+    padding-right: 10px;  /* espaçamento */
+}

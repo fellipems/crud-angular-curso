@@ -1,0 +1,25 @@
+<mat-card>
+    <mat-card-title>Novo Produto</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="product.name" name="name" >   <!-- Two Way data binding - [()] - diretiva não estrutural. todo input precisa ter um "name" do input -->
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" [(ngModel)]="product.price" name="price" type="number">  <!-- o que digitarmos dentro do nosso input será inserido dentro do nosso component de tal forma que mandarmos ele criar o produto no back end, ele vai usar os dados que estejam aqui dentro do nosso input. Sem o type="number" ele vai salvar como String  -->
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button (click)="createProduct()" color="primary">
+        Salvar
+    </button>
+    
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>
+
+
+<!-- <p [id]="propLegal">product-create works!</p>
+
+<button (click)="fazerAlgo()">Fazer Algo</button> pra fazer a ligação/binding entre o evento e o método, usamos o evento (click) entre parênteses. Vai ser interpretado e valor e feita a ligação de quando houver o click chamar o método fazerAlgo() -->
+

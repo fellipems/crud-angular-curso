@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC multi cor",
+      "price": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Notebook",
+      "price": 5000
+    },
+    {
+      "id": 3,
+      "name": "Xiaomi MI 8",
+      "price": 1400
+    },
+    {
+      "name": "Caderno",
+      "price": "10.99",
+      "id": 5
+    },
+    {
+      "name": "Geladeira",
+      "price": "1987.88",
+      "id": 6
+    },
+    {
+      "name": "Computador I5",
+      "price": "3599.99",
+      "id": 7
+    },
+    {
+      "name": "Fone de ouvido JBL+",
+      "price": 399.99,
+      "id": 8
+    },
+    {
+      "name": "Cartão presente",
+      "price": 50,
+      "id": 9
+    },
+    {
+      "name": "testando",
+      "price": 445.45,
+      "id": 10
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+.sidenav{
+    width: 200px;
+}
+
+.sidenav i{
+    padding-right: 10px;
+}
+
+.content{
+    padding: 16px;  /* padding sem direção, ou seja, sem right ou left somente padding, ele vai aplicar o padding para todas as direções */
+}

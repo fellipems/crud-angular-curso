@@ -1,0 +1,21 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap="64">
+        <mat-nav-list class="nav-list">  <!-- mat-nav-list pra ficar uma seleção do tipo de uma lista -->
+            <a mat-list-item routerLink="/">
+                <i class="material-icons">
+                    home
+                </i>
+                Início
+            </a>
+            <a mat-list-item routerLink="/products">  <!-- mat-list para ficar um icone abaixo do outro e ativar seleção. routerLink é a referencia para o nosso path que criamos no app-routing -->
+                <i class="material-icons">
+                    storefront
+                </i>
+                Produtos
+            </a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="content">  <!-- sidenav vai navegar e alterar o que estiver dentro do conteúdo  -->
+        <router-outlet></router-outlet>  <!-- Ponto em que será substituido entre as telas e os pontos de navegação -->
+    </mat-sidenav-content>
+</mat-sidenav-container>

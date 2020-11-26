@@ -1,0 +1,10 @@
+.home .title{
+    font-size: 3rem;    /* rem é relativo ao elemento raiz/da página inteira. Tamanho da fonte relativa à página raiz */
+    font-weight: 300;
+    line-height: 1.2;  /* Altura da linha */
+}
+
+.home .subtitle{
+    font-size: 1.1rem;
+   /* font-size: 1.1em;   em é relativo ao pai/ao elemento anterior. Ex: um body que tem dentro uma div depois um span que tem outra div e etc.  */
+}

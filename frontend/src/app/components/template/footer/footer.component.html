@@ -1,0 +1,14 @@
+<mat-toolbar class="footer">
+    <span>
+        Desenvolvido com
+        <!--<div id="heart"> -->
+            <i class="material-icons v-middle" appRed>  <!-- Usamos a diretiva de atributo que criamos na cor vermelha para injetar/adicionar em um determinado componente ou tag HTML -->
+                favorite
+            </i>
+        <!--</div>--> 
+        por Fellipe
+    </span>
+    <ul>
+        <li *myFor="let n em [1, 2, 3]">{{ n }}</li>  <!-- asterisco pra dizer que é uma diretiva estrutural. este li vai ser o template que vai ser criado um container que vai envolver os templates que vão ser executados dentro deste for -->
+    </ul>
+</mat-toolbar>
